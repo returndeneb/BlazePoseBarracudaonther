@@ -53,7 +53,8 @@ namespace Mediapipe.BlazePose{
         #endregion
 
         #region private variable
-        PoseDetecter detecter;
+        // PoseDetecter detecter;
+        poseDetectorSentis detectersentis;
         PoseLandmarker landmarker;
         ComputeShader cs;
         ComputeBuffer letterboxTextureBuffer, poseRegionBuffer, cropedTextureBuffer;
@@ -68,7 +69,8 @@ namespace Mediapipe.BlazePose{
             var resource = Resources.Load<BlazePoseResource>("BlazePose");
 
             cs = resource.cs;
-            detecter = new PoseDetecter(resource.detectionResource);
+            // detecter = new PoseDetecter(resource.detectionResource);
+            detectersentis = new poseDetectorSentis(resource.detectionResource);
             landmarker = new PoseLandmarker(resource.landmarkResource, (PoseLandmarkModel)blazePoseModel);
 
             letterboxTextureBuffer = new ComputeBuffer(DETECTION_INPUT_IMAGE_SIZE * DETECTION_INPUT_IMAGE_SIZE * 3, sizeof(float));
@@ -108,19 +110,25 @@ namespace Mediapipe.BlazePose{
             // Output image is letter-box image.
             // For example, top and bottom pixels of `letterboxTexture` are black if `inputTexture` size is 1920(width)*1080(height)
             cs.SetInt("_isLinerColorSpace", QualitySettings.activeColorSpace == ColorSpace.Linear ? 1 : 0);
-            cs.SetInt("_letterboxWidth", DETECTION_INPUT_IMAGE_SIZE);
+            // cs.SetInt("_letterboxWidth", DETECTION_INPUT_IMAGE_SIZE);
+            Debug.Log(scale);
             cs.SetVector("_spadScale", scale);
-            cs.SetTexture(0, "_letterboxInput", inputTexture);
-            cs.SetBuffer(0, "_letterboxTextureBuffer", letterboxTextureBuffer);
-            cs.Dispatch(0, DETECTION_INPUT_IMAGE_SIZE / 8, DETECTION_INPUT_IMAGE_SIZE / 8, 1);
-
+            
+            // cs.SetTexture(0, "_letterboxInput", inputTexture);
+            // cs.SetBuffer(0, "_letterboxTextureBuffer", letterboxTextureBuffer);
+            // cs.Dispatch(0, DETECTION_INPUT_IMAGE_SIZE / 8, DETECTION_INPUT_IMAGE_SIZE / 8, 1);
+            detectersentis.ProcessImage(inputTexture,poseThreshold);
+            // detecter.ProcessImage(inputTexture, poseThreshold, iouThreshold);
+            
             // Predict Pose detection.
-            detecter.ProcessImage(letterboxTextureBuffer, poseThreshold, iouThreshold);
-
+            // detecter.ProcessImage(letterboxTextureBuffer, poseThreshold, iouThreshold);
+            
             // Update Pose Region from detected results.
             cs.SetFloat("_deltaTime", deltaTime);
-            cs.SetBuffer(1, "_poseDetections", detecter.outputBuffer);
-            cs.SetBuffer(1, "_poseDetectionCount", detecter.countBuffer);
+            // cs.SetBuffer(1, "_poseDetections", detecter.outputBuffer);
+            // cs.SetBuffer(1, "_poseDetectionCount", detecter.countBuffer);
+            cs.SetBuffer(1, "_poseDetections", detectersentis.outputBuffer);
+            cs.SetBuffer(1, "_poseDetectionCount", detectersentis.countBuffer);
             cs.SetBuffer(1, "_poseRegions", poseRegionBuffer);
             cs.Dispatch(1, 1, 1, 1);
 
@@ -169,7 +177,8 @@ namespace Mediapipe.BlazePose{
         }
 
         public void Dispose(){
-            detecter.Dispose();
+            // detecter.Dispose();
+            detectersentis.Dispose();
             landmarker.Dispose();
             letterboxTextureBuffer.Dispose();
             poseRegionBuffer.Dispose();

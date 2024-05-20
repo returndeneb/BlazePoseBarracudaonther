@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1db8111912d5d6f4d8be77e9fbe771d3, type: 3}
   m_Name: BlazePose
   m_EditorClassIdentifier: 
-  detectionResource: {fileID: 11400000, guid: 5ca7e1876a92b194598fc3f9de2c76f1, type: 2}
-  landmarkResource: {fileID: 11400000, guid: 96c6d0ae9e526654782bff5a4e684456, type: 2}
+  detectionResource: {fileID: 11400000, guid: 76114e1f38b14b909eeddf76a276493a, type: 2}
+  landmarkResource: {fileID: 11400000, guid: 5dcc73f655a6cb54aa47846c2e4c1e25, type: 2}
   cs: {fileID: 7200000, guid: 15099f080ad177443867c160866fdf4d, type: 3}

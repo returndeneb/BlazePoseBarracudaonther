@@ -9,13 +9,15 @@
 #include "PoseRegion.cginc"
 #include "LowPassFilter.cginc"
 #include "Misc.cginc"
-#include "Packages/jp.ikep.mediapipe.posedetection/ComputeShader/Common.cginc"
+// #include "Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Common.cginc"
+#include "Assets/jp.ikep.mediapipe.posedetection@1.0.1/Shader/Common.hlsl"
 
 
 // Kernel 0
 uint _isLinerColorSpace;
-uint _letterboxWidth;
 float2 _spadScale;
+
+uint _letterboxWidth;
 sampler2D _letterboxInput;
 RWStructuredBuffer<float> _letterboxTextureBuffer;
 

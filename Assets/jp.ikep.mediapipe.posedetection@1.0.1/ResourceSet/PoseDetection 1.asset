@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 420d03245bbd48a4b9278bc069fab69e, type: 3}
-  m_Name: PoseDetection
+  m_Name: PoseDetection 1
   m_EditorClassIdentifier: 
-  preProcessCS: {fileID: 7200000, guid: ba3fd2da61c459d448a1ae9231e93877, type: 3}
-  postProcessCS: {fileID: 7200000, guid: c3dadab0a60cd034eb6995cbce9294c1, type: 3}
-  postProcess2CS: {fileID: 7200000, guid: 7936ca302c2ffad448ec89ecbb683e0b, type: 3}
+  preProcessCS: {fileID: 7200000, guid: 065b9d2f5e685444881e88945bf0492b, type: 3}
+  postProcessCS: {fileID: 7200000, guid: 31d2193bd8454830a3553c61789b8ad5, type: 3}
+  postProcess2CS: {fileID: 7200000, guid: a8dcac3d7ca347cd9080204ad8598d10, type: 3}
   model: {fileID: 5022602860645237092, guid: 9d04a74683163374aa06ec2174e6ef12, type: 3}

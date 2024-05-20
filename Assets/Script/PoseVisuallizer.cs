@@ -57,7 +57,7 @@ public class PoseVisuallizer : MonoBehaviour
             33 index data is the score whether human pose is visible ([0, 1]).
             This data is (score, 0, 0, 0).
             */
-            Debug.LogFormat("{0}: {1}", i, detecter.GetPoseLandmark(i));
+            // Debug.LogFormat("{0}: {1}", i, detecter.GetPoseLandmark(i));
         }
         Debug.Log("---");
     } 

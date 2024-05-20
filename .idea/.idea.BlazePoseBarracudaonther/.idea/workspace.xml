@@ -4,22 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88595297-665a-4ae5-a68d-7cc09bd21af1" name="Changes" comment="" />
+    <list default="true" id="88595297-665a-4ae5-a68d-7cc09bd21af1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazePoseBarracudaonther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazePoseBarracudaonther/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/ComputeShader/Process.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/ComputeShader/Process.compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/Resources/BlazePose.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/Resources/BlazePose.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/Script/BlazePoseDetecter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BlazePoseBarracuda/Script/BlazePoseDetecter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/VideoRT.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/VideoRT.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PoseVisuallizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PoseVisuallizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PoseVisuallizer3D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PoseVisuallizer3D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Common.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Common.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/PostProcess2.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/PostProcess2.compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Postprocess.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Postprocess.compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Preprocess.compute" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Preprocess.compute" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ResourceSet/PoseDetection.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/ResourceSet/PoseDetection.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/Script/PoseDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.posedetection@1.0.1/Script/PoseDetection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.poselandmark@1.1.1/ResourceSet/PoseLandmark.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jp.ikep.mediapipe.poselandmark@1.1.1/ResourceSet/PoseLandmark.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/jp.ikep.mediapipe.posedetection@1.0.1/ComputeShader/Postprocess.compute" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../GitHubl/BlazePoseBarracuda/Assets/Script/PoseVisuallizer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2gi8X1t6LCzU4uKdpip8XqeM2sz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "toSentis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\return\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\return\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\return\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\return\Documents\GitHub\BlazePoseBarracudaonther -debugCodeOptimization" />
@@ -36,10 +77,50 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88595297-665a-4ae5-a68d-7cc09bd21af1" name="Changes" comment="" />
+      <created>1716169074526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716169074526</updated>
+      <workItem from="1716169076806" duration="1166000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
 </project>
